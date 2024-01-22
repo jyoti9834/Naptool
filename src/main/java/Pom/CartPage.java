@@ -1,4 +1,4 @@
-package Pom;
+package pom;
 import java.time.Duration;
 import java.util.List;
 
@@ -20,6 +20,16 @@ public class CartPage {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofMillis(5000));
 		wait.until(ExpectedConditions.visibilityOf(proceedToCheckout));
 		return products.size();
+	}
+
+	public void clickOnContinueShopping() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void clickOnRemove(WebDriver driver) {
+		// TODO Auto-generated method stub
+		
 	}
 	
 	

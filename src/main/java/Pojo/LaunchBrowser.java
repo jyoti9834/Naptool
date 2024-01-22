@@ -1,4 +1,4 @@
-package Pojo;
+package pojo;
 import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;

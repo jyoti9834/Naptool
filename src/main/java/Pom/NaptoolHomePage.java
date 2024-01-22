@@ -1,4 +1,4 @@
-package Pom;
+package pom;
 import java.util.List;
 
 import org.openqa.selenium.WebDriver;
@@ -56,6 +56,14 @@ public class NaptoolHomePage {
 	public void clickOnAddToCart() {
 		addtocart.click();
 	}
-}
+
+	public void enterProductName(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+	}
+
 
 

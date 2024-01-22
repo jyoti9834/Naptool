@@ -1,4 +1,4 @@
-package Pom;
+package pom;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -16,6 +16,11 @@ public class ProductDescriptionPage extends BasePage {
 	
 	public void clickOnBuy() {
 		buy.click();
+	}
+
+	public void clickOnClickHereToBuy() {
+		// TODO Auto-generated method stub
+		
 	}
 	
 	

@@ -5,9 +5,9 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import Pojo.LaunchBrowser;
-import Pom.NaptoolHomePage;
-import Pom.ProductResultPage;
+import pojo.LaunchBrowser;
+import pom.NaptoolHomePage;
+import pom.ProductResultPage;
 
 
 public class ProductSearchTest extends BaseTest{

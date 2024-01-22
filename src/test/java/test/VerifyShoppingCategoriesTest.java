@@ -1,5 +1,8 @@
 package test;
 import org.testng.annotations.Test;
+
+import pojo.LaunchBrowser;
+
 import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -8,8 +11,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import Pojo.LaunchBrowser;
-import Pom.NaptoolHomePage;
+import pom.NaptoolHomePage;
 
 @Listeners(test.Listeners.class)
 

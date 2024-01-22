@@ -1,4 +1,4 @@
-package Pom;
+package pom;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -31,6 +31,11 @@ public class ProductQuickViewPage {
 		String [] charge =charges.split(" ");
 		return charge[1];
 		
+	}
+
+	public String getProductName(int i) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	
 	

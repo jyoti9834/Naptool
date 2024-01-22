@@ -1,4 +1,4 @@
-package Pom;
+package pom;
 import java.util.List;
 
 import org.openqa.selenium.WebDriver;
@@ -25,6 +25,26 @@ public class ProductResultPage {
 		actions.moveToElement(products.get(product));
 		actions.perform();
 		quickView.get(product).click();
+	}
+
+	public String getProductName(int i) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void clickOnProduct(int i) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void switchPage(WebDriver driver, String productTitle) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public double getPrice(int i) {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 	
 	

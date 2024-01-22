@@ -4,7 +4,7 @@ import java.io.IOException;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-import Utility.Screenshot;
+import utility.Screenshot;
 
 
 
